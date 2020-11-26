@@ -1,6 +1,6 @@
 <?php
 
-namespace Kirra\Markdown;
+namespace JonathanReichardt\Markdown;
 
 /**
  * Adds Github's Task Lists support to a parser.

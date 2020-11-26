@@ -1,6 +1,6 @@
 <?php
 
-namespace Kirra\Markdown\Tests;
+namespace JonathanReichardt\Markdown\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

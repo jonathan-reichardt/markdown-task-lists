@@ -1,6 +1,6 @@
 # [cebe/markdown] Github Task Lists Support
-[![Build Status](https://travis-ci.com/kirra/markdown-task-lists.svg?branch=master)](https://travis-ci.com/kirra/markdown-task-lists)
-[![Coverage Status](https://coveralls.io/repos/github/kirra/markdown-task-lists/badge.svg?branch=master)](https://coveralls.io/github/kirra/markdown-task-lists?branch=master)
+
+Forked from [kirra/markdown-task-lists] for some minor changes.
 
 A trait to extend [cebe/markdown] with [Task Lists support].
 
@@ -8,7 +8,7 @@ A trait to extend [cebe/markdown] with [Task Lists support].
 PHP 7.1 or higher is required to use it.
 
 ```bash
-composer require kirra/markdown-task-lists
+composer require jonathan-reichardt/markdown-task-lists
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ To parse a Task List you need to make your own parser, and let it `use` the [Tas
 
 ```php
 class MyParser extends \cebe\markdown\Markdown {
-	use Kirra\Markdown\TaskListsTrait;
+	use JonathanReichardt\Markdown\TaskListsTrait;
 }
 
 $parser = new MyParser();

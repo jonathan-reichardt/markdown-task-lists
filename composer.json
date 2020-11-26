@@ -1,15 +1,15 @@
 {
-    "name": "kirra/markdown-task-lists",
-    "description": "Support Github's Task Lists in a cebe/markdown parser.",
+    "name": "jonathan-reichardt/markdown-task-lists",
+    "description": "Frok from kirra/markdown-task-lists. Support Github's Task Lists in a cebe/markdown parser.",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Kirra\\Markdown\\": "src/"
+            "JonathanReichardt\\Markdown\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kirra\\Markdown\\Tests\\": "tests/"
+            "JonathanReichardt\\Markdown\\Tests\\": "tests/"
         }
     },
     "require": {

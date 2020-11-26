@@ -1,12 +1,11 @@
 <?php
 
-namespace Kirra\Markdown\Tests;
+namespace JonathanReichardt\Markdown\Tests;
 
 use cebe\markdown\block\ListTrait;
 use cebe\markdown\Markdown;
 use cebe\markdown\Parser;
-use Kirra\Markdown\TaskListsTrait;
-
+use JonathanReichardt\Markdown\TaskListsTrait;
 /**
  * Test class for {@see TaskListTrait}.
  * @since 1.0.0
