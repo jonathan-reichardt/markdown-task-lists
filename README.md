@@ -33,3 +33,4 @@ within a list.
 [cebe/markdown]: https://github.com/cebe/markdown
 [Task Lists support]: https://github.blog/2013-01-09-task-lists-in-gfm-issues-pulls-comments
 [TaskListsTrait]: './src/TaskListsTrait.php'
+[kirra/markdown-task-lists]: https://github.com/kirra/markdown-task-lists
