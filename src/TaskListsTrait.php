@@ -45,7 +45,7 @@ trait TaskListsTrait {
 		}
 
 		return sprintf(
-			'<input type="checkbox" disabled=""%s%s> ',
+			'<input type="checkbox" readonly""%s%s> ',
 			$block['checked'] ? ' checked=""' : '',
 			$this->html5 ? ' /' : ''
 		);
